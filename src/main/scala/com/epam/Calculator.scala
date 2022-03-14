@@ -1,7 +1,14 @@
 package com.epam
 
 object Calculator {
-  def add(x: Int, y: Int): Int = x + y
+  println("Hello, World!")
+
+  def add(x: Int, y: Int): Int = {
+    var sum: Int = 0
+    var summ: Int = 0
+    sum = x + y
+    return sum
+  }
 
   def subtract(x: Int, y: Int): Int = x - y
 
